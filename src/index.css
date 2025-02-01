@@ -7,3 +7,61 @@
   padding: 0;
   margin: 0;
 }
+
+/*-----------------
+GENERAL
+-----------------*/
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  min-height: 100vh;
+}
+
+/*-------------------
+   HEADER
+-------------*/
+
+header {
+  background-color: #fff;
+  color: #000;
+  margin: 1.25rem 0 1.25rem 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  letter-spacing: -0.625rem;
+}
+
+header nav ul a {
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*-------------
+    MAIN      
+----------------*/
+
+/*--------------
+      FOOTER
+---------------*/
