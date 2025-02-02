@@ -1,12 +1,14 @@
-const content = "--> Content goes here <--";
+import ComicsList from "./ComicsList";
 
 function Main() {
   return (
-    <main>
-      <section className="container">
-        <h1> content </h1>
-      </section>
-    </main>
+    <>
+      <main>
+        <section className="container">
+          <ComicsList />
+        </section>
+      </main>
+    </>
   );
 }
 
